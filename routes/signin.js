@@ -1,4 +1,4 @@
-
+dotenv.config();
 const express = require("express");
 const router = express.Router();
 const CreateBlog = require('../schema/registerSchema')
